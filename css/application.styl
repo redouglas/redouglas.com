@@ -1,0 +1,188 @@
+@import mixins
+
+$textcolor = #444
+
+body
+  font-family: "Lato"
+  text-align: center
+  padding: 50px 20px 0
+  background: url("../img/greyzz.png") #f4f4f7
+  color: $textcolor
+  margin: 0
+  padding: 0
+  font-size: 0.8em
+
+  p
+    text-align: left
+    line-height: 1.8em
+    margin-bottom 2em
+
+strong
+  font-weight: bold
+
+header
+  position: relative
+  margin-bottom: 0px
+  min-height: 165px
+
+  img.logo
+    width: 8%
+    max-width: 90px
+    float: left
+    margin: 20px 0 20px 10%
+
+  ul.contact
+    width: 30%
+    position: absolute
+    right: 6%
+    width: 200px
+    bottom: 0
+    margin-bottom: 20px
+
+    li
+      text-align: left
+      margin-bottom: 10px
+
+      a
+        color: $textcolor
+        text-decoration: none
+        font-family: "Lato"
+
+        &:before
+          padding-right: 10px
+          font-family: "Ionicons"
+
+        &:hover
+          color: #000
+
+.left-column
+  margin-left: 6%
+  float: left
+  width: 16%
+
+  section
+    border-top: 1px solid $textcolor
+    padding-top: 15px
+
+.icon
+  border-radius: 50%
+  border: 3px solid $textcolor
+  width: 80px
+  height: 80px
+  margin: 0 auto
+
+  &:before
+    font-size: 42px
+    line-height: 80px
+
+.icon-description
+  font-weight: bold
+  text-transform: uppercase
+  margin: 15px 0
+
+.right-column
+  margin-right: 6%
+  float: right
+  width: 66%
+
+  section
+    border-top: 1px solid $textcolor
+    padding: 15px 0
+
+    .col
+      width: 32%
+      min-height: 100px
+      float: left
+
+      &:first-child
+        margin-right: 2%
+
+      &:last-child
+        margin-left: 2%
+
+      ul
+        li
+          text-align: center
+          margin-bottom: 5px
+
+      &.education
+        ul li
+          line-height: 17px
+          margin-bottom: 20px
+
+section.highlights
+  margin-top: 20px
+
+section.experience
+  position: relative
+  .icon-col
+    position: absolute
+    top: 15px
+    width: 32%
+
+  .controls
+    top: 15px
+    left: 9%
+
+    .count
+      position: absolute
+      width: 100%
+      top: 169px
+      z-index: 1
+
+    a.next, a.prev
+      position: absolute
+      top: 150px
+      font-size: 4em
+      color: $textcolor
+      text-decoration: none
+      z-index: 2
+
+      &:hover
+        color: #000
+
+    a.next
+      right: 50%
+      margin-right: -55px
+    a.prev
+      left: 50%
+      margin-left: -55px
+
+  ul.experience
+    float: right
+    width: 64%
+    min-height: 300px
+    position: relative
+
+    li.listing
+      position: relative
+      margin-bottom: 30px
+      display: none
+
+      &.active
+        display: block
+
+      h3
+        float: left
+        text-align: left
+
+        .title
+          font-weight: bold
+
+      .duration
+        font-style: italic
+        float: right
+
+      ul
+        float: left
+        margin-top: 10px
+        width: 95%
+        padding-left: 5%
+
+        li
+          text-align: left
+          list-style-type: disc
+          margin-bottom: 10px
+          line-height: 1.8em
+
+@import responsive

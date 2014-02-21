@@ -1,0 +1,52 @@
+body{font-family:"Lato";text-align:center;padding:50px 20px 0;background:url("../img/greyzz.png") #f4f4f7;color:#444;margin:0;padding:0;font-size:.8em;}
+body p{text-align:left;line-height:1.8em;margin-bottom:2em}
+strong{font-weight:bold}
+header{position:relative;margin-bottom:0;min-height:165px;}
+header img.logo{width:8%;max-width:90px;float:left;margin:20px 0 20px 10%}
+header ul.contact{width:30%;position:absolute;right:6%;width:200px;bottom:0;margin-bottom:20px;}
+header ul.contact li{text-align:left;margin-bottom:10px;}
+header ul.contact li a{color:#444;text-decoration:none;font-family:"Lato";}
+header ul.contact li a:before{padding-right:10px;font-family:"Ionicons"}
+header ul.contact li a:hover{color:#000}
+.left-column{margin-left:6%;float:left;width:16%;}
+.left-column section{border-top:1px solid #444;padding-top:15px}
+.icon{border-radius:50%;border:3px solid #444;width:80px;height:80px;margin:0 auto;}
+.icon:before{font-size:42px;line-height:80px}
+.icon-description{font-weight:bold;text-transform:uppercase;margin:15px 0}
+.right-column{margin-right:6%;float:right;width:66%;}
+.right-column section{border-top:1px solid #444;padding:15px 0;}
+.right-column section .col{width:32%;min-height:100px;float:left;}
+.right-column section .col:first-child{margin-right:2%}
+.right-column section .col:last-child{margin-left:2%}
+.right-column section .col ul li{text-align:center;margin-bottom:5px}
+.right-column section .col.education ul li{line-height:17px;margin-bottom:20px}
+section.highlights{margin-top:20px}
+section.experience{position:relative;}
+section.experience .icon-col{position:absolute;top:15px;width:32%}
+section.experience .controls{top:15px;left:9%;}
+section.experience .controls .count{position:absolute;width:100%;top:169px;z-index:1}
+section.experience .controls a.next,section.experience .controls a.prev{position:absolute;top:150px;font-size:4em;color:#444;text-decoration:none;z-index:2;}
+section.experience .controls a.next:hover,section.experience .controls a.prev:hover{color:#000}
+section.experience .controls a.next{right:50%;margin-right:-55px}
+section.experience .controls a.prev{left:50%;margin-left:-55px}
+section.experience ul.experience{float:right;width:64%;min-height:300px;position:relative;}
+section.experience ul.experience li.listing{position:relative;margin-bottom:30px;display:none;}
+section.experience ul.experience li.listing.active{display:block}
+section.experience ul.experience li.listing h3{float:left;text-align:left;}
+section.experience ul.experience li.listing h3 .title{font-weight:bold}
+section.experience ul.experience li.listing .duration{font-style:italic;float:right}
+section.experience ul.experience li.listing ul{float:left;margin-top:10px;width:95%;padding-left:5%;}
+section.experience ul.experience li.listing ul li{text-align:left;list-style-type:disc;margin-bottom:10px;line-height:1.8em}
+@media only screen and (max-width:768px){header{width:100%}
+section .left-column{margin-right:6%;width:88%}
+section .right-column{margin-left:6%;width:88%}
+}@media only screen and (max-width : 480px){header img.logo{width:90px;margin:10px auto;float:none}
+header ul.contact{width:88%;margin:0 6%;position:static;float:left;}
+header ul.contact li{text-indent:40px;margin-bottom:20px}
+section.experience .icon-col{width:88%;margin:0 6%;float:left;position:relative;height:190px;}
+section.experience .icon-col .controls{position:relative;right:auto;top:auto;left:auto;}
+section.experience .icon-col .controls a.next,section.experience .icon-col .controls a.prev{top:0}
+section.experience .icon-col .controls .count{top:17px}
+section.experience ul.experience{width:88%;margin:6%;float:left}
+.right-column .highlights .col{width:88%;margin:0 6% 40px 6%}
+}

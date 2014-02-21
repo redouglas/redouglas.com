@@ -1,0 +1,65 @@
+{
+  "Originate" : {
+    "company" :     "Originate",
+    "title":        "Software Engineer & Designer",
+    "duration":     "Nov 2012 - Present",
+    "bullets" : [
+      "Performed front end development on a wide variety of platforms using a wide variety of tools such as SASS, HAML, CoffeeScript, Jade, and Stylus",
+      "Promoted to Front End Architect and responsible for establishing and enforcing best practices for front end development across the company",
+      "Delivered functional and aesthetic app designs, including UX design, UI design, and asset creation",
+      "Tech lead on a team on for a large-scale, high profile app and was responsible for team-wide communication and project scoping",
+      "Assisted with establishing design practices and procedures to aid resource planning within the company"
+    ]
+  },
+  "Notionst" : {
+    "company" :     "Notionist",
+    "title":        "Web Developer",
+    "duration":     "Jan 2010 - Nov 2012",
+    "bullets" : [
+      "Led web design, development and maintenance on a variety of projects for a broad client base, including healthcare providers, restaurants, environmental consulting firms, contractors & more",
+      "Created CMS's from scratch using PHP/SQL, as well as working with existing platforms like Wordpress and Drupal",
+      "Built complex back-end systems for records management, site maintenance and more",
+      "Owned a variety of print design projects",
+      "Implemented various social media campaigns",
+      "Created a successful e-blast campaign that helped increase customer conversion & establish overall brand",
+      "Produced and edited various public relations videos for non profit Cancer Support Community",
+      "Served as a key touchpoint for clients, managing their needs and interfacing with them about the scope and strategy of their projects",
+      "Provided key guidance to company leadership regarding overall technology strategy",
+      "Helped lead our team in exploring and implement innovative technologies, including HTML5, JQuery & more"
+    ]
+  },
+  "Trackside" : {
+    "company":      "Trackside Photo",
+    "title" :       "Designer & Web Developer",
+    "duration" :    "Oct 2007 - Nov 2010",
+    "bullets" : [
+      "Responsible for all web design and development, as well as site maintenance for client projects and internal projects",
+      "Managed graphic design for multiple key projects within the company",
+      "Performed photo manipulation and color correction, as well as advanced photo editing on a client request basis",
+      "Performed hardware maintenance and repairs on key equipment, as well as ensuring efficient operation of company infrastructure",
+      "Interfaced directly with customers, managing their accounts & providing support and product guidance"
+    ]
+  },
+  "ICUCSB" : {
+    "company":      "Consultant",
+    "title" :       "Instructional Computing at UCSB",
+    "duration" :    "Jan 2006 - Sept 2007",
+    "bullets" : [
+      "Led classes on Dreamweaver, Photoshop, Word & various other applications used in the labs",
+      "Maintained lab infrastructure, including hardware, software and various other accoutrement",
+      "Worked directly with lab visitors, answering software and hardware questions and providing general guidance and support as requested"
+    ]
+  },
+  "onlinesupplier" : {
+    "company":      "Web Developer",
+    "title" :       "OnlineSupplier.com",
+    "duration" :    "Feb 2007 - Jul 2007",
+    "bullets" : [
+      "Web development using JavaScript, CSS, HTML, Flash and PHP",
+      "Architected and executed key graphic design strategies, particularly in advertisements and marketing collateral",
+      "Built a proprietary client-facing application, giving customers the ability to design their own business cards",
+      "Built a variety of landing pages and websites from conceptualization through deployment and testing",
+      "Performed maintenance and upkeep on existing sites"
+    ]
+  }
+}
