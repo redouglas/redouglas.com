@@ -1,4 +1,4 @@
-@import mixins
+@import _reset
 
 $textcolor = #444
 
@@ -9,13 +9,21 @@ body
   background: url("../img/greyzz.png") #f4f4f7
   color: $textcolor
   margin: 0
-  padding: 0
   font-size: 0.8em
 
-  p
-    text-align: left
-    line-height: 1.8em
-    margin-bottom 2em
+p
+  text-align: left
+  line-height: 1.8em
+  margin-bottom 2em
+  
+a
+  color: $textcolor
+  text-decoration: none
+  border-bottom: 1px dotted $textcolor
+  
+  &:hover
+    border-bottom: 1px solid $textcolor
+    color: #000
 
 strong
   font-weight: bold
@@ -25,11 +33,16 @@ header
   margin-bottom: 0px
   min-height: 165px
 
-  img.logo
-    width: 8%
-    max-width: 90px
+  .logo
+    width: 16%
+    height: 130px
+    margin-top: 14px
     float: left
-    margin: 20px 0 20px 10%
+    margin-left: 6%
+    background-image: url('/img/logo.svg')
+    background-repeat: no-repeat
+    background-size: contain
+    background-position: center center
 
   ul.contact
     width: 30%
@@ -47,11 +60,12 @@ header
         color: $textcolor
         text-decoration: none
         font-family: "Lato"
+        border-bottom: none
 
         &:before
           padding-right: 10px
           font-family: "Ionicons"
-
+          
         &:hover
           color: #000
 
@@ -69,6 +83,7 @@ header
   border: 3px solid $textcolor
   width: 80px
   height: 80px
+  line-height: 100px
   margin: 0 auto
 
   &:before
@@ -103,7 +118,7 @@ header
       ul
         li
           text-align: center
-          margin-bottom: 5px
+          margin-bottom: 10px
 
       &.education
         ul li
@@ -112,9 +127,17 @@ header
 
 section.highlights
   margin-top: 20px
+  margin-bottom: 40px
 
 section.experience
   position: relative
+  
+  a
+    border-bottom: none
+    
+    &:hover
+      border-bottom: none
+      
   .icon-col
     position: absolute
     top: 15px
@@ -185,4 +208,5 @@ section.experience
           margin-bottom: 10px
           line-height: 1.8em
 
-@import responsive
+@import _404
+@import _responsive

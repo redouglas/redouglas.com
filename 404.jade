@@ -1,2 +1,20 @@
-h1 404
-
+!!!
+html
+  head
+    title!= site_name
+    link(rel="stylesheet", href="css/reset.css")
+    link(rel="stylesheet", href="css/application.css")
+    link(rel="stylesheet", href="css/ionicons.min.css")
+    link(rel="stylesheet", href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic")
+    link(rel="shortcut icon", type="image/x-icon", href="favicon.ico")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+  body
+    main
+      section.pnf
+        h1 404 - Page Not Found.
+        p 
+          | Wow, how did you manage to get here on a single-page site? 
+          br
+          | I must've really messed something up... 
+          
+        a(href="/") Go to my actual website
