@@ -1,103 +1,12 @@
-!!!
+doctype
 html
   head
     title!= site_name
-    link(rel="stylesheet", href="css/application.css")
-    link(rel="stylesheet", href="http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css")
-    link(rel="stylesheet", href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic")
+    link(rel="stylesheet", href="css/main.css")
     link(rel="shortcut icon", type="image/x-icon", href="favicon.ico")
     meta(name="viewport", content="width=device-width, initial-scale=1")
   body
-    main
-      header.cf
-        .logo
-        ul.contact
-          li
-            a.ion-ios-location(href='https://goo.gl/maps/68ahK', target='_blank') Based in Los Angeles
-          li
-            a.ion-ios-email-outline(href='mailto:bedouglas@gmail.com') Email
-          li
-            a.ion-social-linkedin(href='http://www.linkedin.com/in/redouglas/', title='Add me on Linkedin',target='_blank') LinkedIn
-          li
-            a.ion-social-codepen(href='http://codepen.io/redouglas/', title='View my Codepen gallery', target='_blank') CodePen
-          li
-            a.ion-social-github(href='https://github.com/redouglas', title='View my GitHub profile', target='_blank') Github
-
-
-      section
-        .left-column
-          section
-            p I'm a developer and designer with a passion for problem-solving. I enjoy finding creative, elegant solutions across a wide variety of platforms, and working with innovative, cross-functional teams. Nothing inspires me more than learning new things, and seeing new ideas come into fruition.
-            p I'm as passionate about writing clean, simple code as I am about creating clean, simple designs. Every project has its own unique needs, but my personal aesthetic is all about designing with purpose - in both the code I write and the graphics I create.
-            p 
-              | Want to meet up? 
-              a(href="mailto:bedouglas@gmail.com") Shoot me an email.
-              
-        .right-column
-          section.experience.cf
-            .icon-col
-              .ion-map.icon
-              .icon-description Experience
-              .controls
-                a.next.ion-ios-arrow-right#next(href="#", title="Next")
-                .count 1
-                a.prev.ion-ios-arrow-left#prev(href="#", title="Previous")
-            ul.experience.cf
-              each listing in public.experience._data
-                li.listing
-                  h3
-                    span.title= listing.title
-                    = ", "
-                    span.company= listing.company
-                  .duration= listing.duration
-                  ul
-                    each bullet in listing.bullets
-                      li= bullet
-
-
-          section.highlights.cf
-            .col.tools
-              .ion-settings.icon
-              .icon-description Tools
-              ul
-                li HTML5 &amp; CSS3
-                li SASS, Stylus &amp; LESS
-                li HAML &amp; Jade
-                li CoffeeScript
-                li jQuery
-                li Rails, Node &amp; Play
-                li React.js
-                li Backbone
-            .col.skills
-              .ion-clipboard.icon
-              .icon-description Skills
-              ul
-                li Front-End Development
-                li User Experience Design
-                li Graphic and Print Design
-                li Responsive Interface Design
-                li Team Management &amp; Leadership
-                li Frontend Architecture
-                li Rapid Prototyping
-                li Wireframing
-            .col.education
-              .ion-briefcase.icon
-              .icon-description Education
-              ul
-                li
-                  strong California State University, Northridge
-                  br
-                  | Graphic Design, 2007-2009
-                  br
-                  | Bachelor's of Art, Graphic Design
-                li
-                  strong University of California, Santa Barbara
-                  br
-                  | Computer Engineering, 2004-2007
+    img.logo(src='/img/logo.svg')
 
 
 
-
-    script(src="js/jquery-2.0.3.min.js")
-    script(src="js/application.js")
-    script var s = new Slider('ul.experience')
